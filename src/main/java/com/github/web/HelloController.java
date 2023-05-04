@@ -11,4 +11,10 @@ public class HelloController {
         return "hello";
     }
 
+
+    @GetMapping("/world")
+    public String world() {
+        return "world";
+    }
+
 }
