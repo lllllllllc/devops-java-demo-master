@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DevopsJavaDemoApplication {
 
     public static void main(String[] args) {
+//        args = new String[]{"--server.port=82", "--server.servlet.contextPath=/ssm"};
         SpringApplication.run(DevopsJavaDemoApplication.class, args);
     }
 
